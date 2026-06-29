@@ -1,3 +1,0 @@
-[submodule "bootloader/mcuboot"]
-	path = bootloader/mcuboot
-	url = https://github.com/zephyrproject-rtos/mcuboot
