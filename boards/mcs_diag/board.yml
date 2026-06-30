@@ -1,0 +1,6 @@
+board:
+  name: mcs_diag
+  full_name: MCS Diag
+  vendor: st
+  socs:
+    - name: stm32f446xx

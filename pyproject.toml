@@ -1,0 +1,15 @@
+[project]
+name = "mcs_diag"
+version = "1.0.0"
+description = "Hello CLI"
+requires-python = ">=3.11"
+dependencies = [
+    "click>=8.1",
+]
+
+[project.scripts]
+mcs_diag = "mcs_diag.mcs_diag:mcs_diag_cli"
+
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"

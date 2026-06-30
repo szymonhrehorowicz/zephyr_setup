@@ -2,6 +2,9 @@
 path = zephyr
 file = west.yml
 
+[build]
+cmake-args = -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DBOARD_ROOT=../
+
 [zephyr]
 base = zephyr
 
